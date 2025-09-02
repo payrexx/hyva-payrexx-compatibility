@@ -13,7 +13,7 @@ namespace Payrexx\HyvaPayrexxCompatibility\Model\Payment;
 use Hyva\Checkout\Model\Magewire\Payment\AbstractPlaceOrderService;
 use Magento\Quote\Model\Quote;
 
-class HyvaPlaceOrderService extends AbstractPlaceOrderService
+class PayrexxPlaceOrderService extends AbstractPlaceOrderService
 {
 
     public function canRedirect(): bool
