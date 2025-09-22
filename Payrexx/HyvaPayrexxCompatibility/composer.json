@@ -1,0 +1,17 @@
+{
+  "name": "payrexx/hyva-payrexx-compatibility",
+  "description": "Hyvä Checkout compatibility module for Payrexx",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Payrexx\\HyvaPayrexxCompatibility\\": ""
+    }
+  }
+}

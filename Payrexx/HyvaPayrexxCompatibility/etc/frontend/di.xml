@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Hyva\Checkout\Model\Magewire\Payment\PlaceOrderServiceProvider">
+        <arguments>
+            <argument name="placeOrderServiceList" xsi:type="array">
+                <item name="payrexx_payment" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_masterpass" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_mastercard" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_visa" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_apple_pay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_maestro" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_jcb" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_american_express" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_wirpay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_paypal" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_bitcoin" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_klarna" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_billpay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_bonus" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_cashu" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_cb" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_diners_club" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_sepa_direct_debit" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_discover" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_elv" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_ideal" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_invoice" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_myone" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_paysafecard" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_post_finance_pay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_swissbilling" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_twint" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_barzahlen" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_bancontact" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_giropay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_eps" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_google_pay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_oney" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_centi" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_heidipay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_bank_transfer" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_pay_by_bank" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_powerpay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_cembrapay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+                <item name="payrexx_payment_crypto" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>
