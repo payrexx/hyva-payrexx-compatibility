@@ -13,7 +13,6 @@
                 <item name="payrexx_payment_maestro" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
                 <item name="payrexx_payment_jcb" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
                 <item name="payrexx_payment_american_express" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
-                <item name="payrexx_payment_wirpay" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
                 <item name="payrexx_payment_paypal" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
                 <item name="payrexx_payment_bitcoin" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
                 <item name="payrexx_payment_klarna" xsi:type="object">Payrexx\HyvaPayrexxCompatibility\Model\Payment\PayrexxPlaceOrderService</item>
